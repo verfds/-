@@ -1,0 +1,161 @@
+*{margin: 0;
+  padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ ul,li{
+    list-style: none;
+}
+.yetou{
+    height: 32px;
+    background: #f8f7f7;
+    border-bottom: 1px #e9e8e8 solid;
+    overflow: hidden;
+}
+.w1172{
+    width:1172px;
+    margin: 0 auto;
+}
+.yetou .w1172 .zuo {
+    font-size: 12px;
+    color: #b6b6b6;
+
+}
+.yetou .w1172 .zuo p{
+    float: left;
+    height: 13px;
+   margin-top: 10px;
+}
+.yetou .w1172 .zuo .fud{
+    border-left: 1px black solid;
+    margin-left: 19px;
+    padding-left: 15px;
+}
+.yetou .w1172 .you{
+    float: right;
+    line-height: 32px;
+}
+.yetou .w1172 .you ul{
+
+}
+.yetou .w1172 .you ul li{
+    float: left;
+    border-left: #e9e8e8 1px solid;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.shoudao {
+    height: 97px;
+}
+.shoudao .w1172{
+    height: 97px;
+    position: relative;
+}
+.shoudao .w1172 .zdao{
+    line-height: 97px;
+}
+.shoudao .w1172 .zdao ul li{
+    float: left;
+        font-size: 18px;
+    font-weight: bold;
+    margin-left: 13px;
+}
+.shoudao .w1172 .zdao ul li a{
+    color: black;
+}
+.shoudao .w1172 .logo {
+    height: 50px;
+    width: 182px;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+.shoudao .w1172 .ydao{
+   float: right;
+    position: absolute;
+    right: 2px;
+    top: 30px;
+}
+.shoudao .w1172 .ydao ul{
+
+}
+.shoudao .w1172 .ydao ul li{
+    height: 34px;
+    float: left;
+    line-height: 34px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.shoudao .w1172 .ydao ul li a{
+    color: black;
+}
+.yuyue{
+    height: 532px;
+    background: url("beijing4.png");
+    background-repeat: no-repeat;
+    background-size: 100% 532px;
+    position: relative;
+    z-index: 1;
+}
+.yuyue .zhezaoc{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    background: rgba(159,119,210,.5);
+}
+.yuyue .zhezaoc .w1172 .juzhong{
+    text-align: center;
+    color: white;
+}
+.yuyue .zhezaoc .w1172 .juzhong h1{
+    padding-top: 110px;
+    font-size: 40px;
+    font-weight: normal;
+}
+.yuyue .zhezaoc .w1172 .juzhong h3{
+    margin-top: 27px;
+    font-size: 30px;
+    font-weight: normal;
+}
+.yuyue .zhezaoc .w1172 .juzhong p{
+    width: 810px;
+    height: 47px;
+    margin: 0 auto;
+    padding-top: 58px;
+    font-size: 18px;
+    overflow: hidden;
+}
+.yuyue .zhezaoc .w1172 .juzhong a{
+    display: block;
+    width: 170px;
+    height:41px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 41px;
+    margin-top: 54px;
+    color: white;
+    font-size: 24px;
+}
+.yuyue .zhezaoc .w1172 .juzhong a:hover{
+    background: black;
+}
+.shurukuang{
+    height: 236px;
+}
+.shurukuang .w1172 .anniu{
+  padding-top: 30px;
+    padding-bottom: 30px;
+    background-position: center;
+}
+.shurukuang .w1172 .anniu a{
+    display: inline-block;
+    width: 86px;
+    height: 34px;
+    background: #7d7d7d;
+    color: white;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 3px;
+}
