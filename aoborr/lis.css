@@ -1,0 +1,348 @@
+*{margin:0 ;
+   padding: 0;
+}
+a{text-decoration: none}
+h2,h3,h4,h5{
+    font-weight: normal;
+}
+em{font-style: normal}
+ul li{
+   list-style: none;
+}
+.header{
+    height: 32px;
+    background: #007ae1;
+    overflow: hidden;
+}
+.w1000{
+    margin: 0 auto;
+    width: 1000px;
+}
+.header .w1000 p{
+    float: left;
+    font-size: 12px;
+    height: 32px;
+  line-height: 32px;
+    color: white;
+    overflow: hidden;
+}
+.header .w1000 a{
+    font-size: 12px;
+    float: right;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 15px 0 15px;
+    color: white;
+}
+.mainbav{
+    height: 98px;
+    background: #eee;
+}
+.mainbav .w1000{
+    overflow: hidden;
+}
+.mainbav .w1000 .logo{
+    width: 288px;
+    height: 98px;
+  float: left;
+}
+.mainbav .w1000 .logo img{
+    width: 168px;
+    height: 56px;
+    margin-left: 26px;
+    margin-top: 21px;
+}
+.mainbav .w1000 ul{
+    width: 712px;
+    height: 98px;
+    float: left;
+}
+.mainbav .w1000 ul li{
+    float: left;
+    width: 126px;
+    height: 98px;
+line-height: 98px;
+
+}
+.mainbav .w1000 ul li:first-child{
+    margin-left: 80px;
+}
+.mainbav .w1000 ul li a{
+    font-size: 18px;
+    text-align: center;
+    color: #494949;
+}
+.mainbav .w1000 ul li a:hover{
+    color: #007ae1;
+    border-bottom:#007ae1 3px solid;
+}
+.img {
+    width: 100%;
+    height: 514px;
+    background: url("shouye4_02.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 514px;
+}
+.content{
+    height: 500px;
+    background: url("cagt1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.content .shou h3{
+    height: 90px;
+    font-size: 30px;
+   line-height: 90px;
+}
+.content .shou h3 span{
+    font-size: 18px;
+}
+.content .neirong{
+    height: 410px;
+}
+.content .neirong h5{
+    height: 80px;
+      font-size: 24px;
+    text-align: center;
+    line-height: 80px;
+}
+.content .neirong p{
+    font-size: 18px;
+    line-height: 40px;
+text-indent: 36px;
+    overflow: hidden;
+}
+.fuwu{
+    height: 555px;
+    background: url("fuwu_4_02.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 555px;
+    color: white;
+
+}
+ .shou h3{
+    height: 90px;
+    font-size: 30px;
+    line-height: 90px;
+     color: white;
+     margin-left: 10px;
+}
+ .shou h3 span{
+    font-size: 18px;
+}
+.fuwu ul{
+    height: 271px;
+    overflow: hidden;
+    margin-top: 44px;
+
+}
+.fuwu ul li{
+    width: 170px;
+    height: 188px;
+    background:#4db5f7;
+    float: left;
+    margin-left: 26px;
+}
+.fuwu ul li img{
+    margin-left: 38px;
+    margin-top: 26px;
+}
+.fuwu ul li a{
+    display: block;
+    text-align: center;
+    color: white;
+    line-height: 60px;
+
+}
+.fuwu ul li:nth-child(2){
+    background: #f7b449;
+}
+.fuwu ul li:nth-child(3){
+    background: #75c273;
+}
+.fuwu ul li:nth-child(4){
+    background: #ff5253;
+}
+.fuwu ul li:last-child{
+    background: #7265ab;
+}
+.fuwu .youhua{
+    height: 130px;
+    background: white;
+    border-radius: 4px;
+    position: relative;
+}
+.fuwu .youhua .wenzi{
+    width: 660px;
+    height: 90px;
+    margin-left: 30px;
+    padding-top: 22px;
+}
+.fuwu .youhua .wenzi h2{
+    color: #585858;
+    font-size: 32px;
+}
+.fuwu .youhua .wenzi p{
+    color: #9a9a9a;
+    font-size: 16px;
+
+}
+.fuwu .youhua a{
+    display: block;
+    float: right;
+    width: 192px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 22px;
+    color: white;
+    background:#328ad7 ;
+    border-radius: 10px ;
+    position: absolute;
+    bottom:36px ;
+    right: 40px;
+}
+.anli{
+    height: 729px;
+    background:url("anli_02.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 729px;
+}
+.anli div ul{
+    margin-top: 26px;
+    height: 615px;
+}
+.anli div ul li{
+    width: 309px;
+    height: 318px;
+    float: left;
+    margin-right: 24px;
+}
+.anli div ul li a{
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    margin-top: 16px;
+}
+.xinwen{
+    height: 513px;
+    background:url("xinwen_02.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 513px;
+}
+.xinwen .hangye{
+    width: 500px;
+    float: left;
+    color: white;
+}
+.xinwen .hangye .biaoti{
+    height: 52px;
+    line-height: 52px;
+    margin-left: 10px;
+}
+.xinwen .hangye h2{
+    float: left;
+    font-size: 28px;
+}
+.xinwen .hangye span{
+    float: left;
+    font-size: 14px;
+}
+.xinwen .hangye em{
+    float: right;
+    font-size: 16px;
+}
+.xinwen .hangye ul{
+    height: 352px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.xinwen .hangye ul li{
+    line-height: 30px;
+   white-space: pre;
+    font-size: 16px;
+}
+.xinwen .dongtai{
+    width: 500px;
+    float: right;
+    color: white;
+}
+.xinwen .dongtai .biaoti{
+    height: 52px;
+    line-height: 52px;
+    margin-left: 20px;
+}
+.xinwen .dongtai h2{
+    float: left;
+    font-size: 28px;
+}
+.xinwen .dongtai span{
+    float: left;
+    font-size: 14px;
+}
+.xinwen .dongtai em{
+    float: right;
+    font-size: 16px;
+}
+.xinwen .dongtai ul{
+    height: 352px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.xinwen .dongtai ul li{
+    line-height: 30px;
+    white-space: pre;
+  font-size: 16px;
+}
+.hezuo{
+    height: 220px;
+    background: #eeeeee;
+}
+.hezuo .w1000{
+    height: 220px;
+}
+.hezuo .w1000 p{
+    font-size: 24px;
+    color:#027cc5 ;
+    padding-top: 42px;
+}
+.hezuo .w1000 .shangbiao{
+    width: 1000px;
+    height: 72px;
+    border: #858585 1px solid;
+    border-radius: 10px;
+    background: white;
+    margin-top: 26px;
+}
+.shangbiao ul{
+    width: 1000px;
+    height: 72px;
+
+}
+.hezuo .w1000 .shangbiao ul li{
+    margin-top: 25px;
+    margin-left: 59px;
+    float: left;
+
+}
+.hezuo .w1000 .shangbiao ul li:first-child{
+    margin: 26px -31px 0px 27px;
+}
+.weibu{
+    height: 110px;
+    background: #0a98e0;
+    color: white;
+}
+.weibu .w1000 p{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 28px;
+}
